@@ -1,0 +1,40 @@
+@media (min-width: 200px) and (max-width:850px){
+
+/*Queries Encabezado*/
+
+    .columna-vacia-encabezado{
+        display: none;
+    }
+
+    .logo-principal{
+        width: 200px;
+        margin-top: 20px;
+    }
+
+    .logos-redes{
+        padding: 40px;
+    }
+    
+    .logo-facebook, .logo-whatsapp{
+        width: 30px;
+        &:hover{
+            opacity: 0.8;
+        }
+    }
+    .logo-instagram{
+        width: 45px;
+        &:hover{
+            opacity: 0.8;
+    }
+}
+
+
+/*Queries Index*/
+
+.enlace-a-productos{
+    padding: 50px;
+        p{
+            font-size: 1em;
+        }
+    }
+}

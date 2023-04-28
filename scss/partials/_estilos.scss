@@ -1,0 +1,85 @@
+
+/*Estilos Encabezado*/
+.menu{
+    background-color: $color-background-general;
+}
+
+ul{
+    list-style: none;
+    }
+
+.logo-principal{
+    width: 300px;
+    padding: 10px;
+}
+
+.logos-redes{
+    padding: 40px;
+    .texto-contacto{
+        color: $color-fuente-detalles;
+        text-decoration: none;
+        font-style: bold;
+        font-size: $font-size-general;
+
+    }
+}
+
+.logo-facebook, .logo-whatsapp{
+    margin-bottom: 5px;
+    width: 50px;
+}
+
+.logo-instagram{
+    margin-bottom: 5px;
+    width: 70px;
+}
+
+.texto-contacto:active{
+    color: rgb(224, 203, 210);
+}
+
+
+/*Estilos Index*/
+
+.productos, .ideas-deco, .conocenos{
+    margin-bottom: 10px;
+
+}
+
+.imagen-productos{
+    padding: 15px;
+}
+
+.enlace-a-productos{
+padding: 130px;
+    a{
+        text-decoration: none;
+    }    
+    p{
+        color: $color-fuente-menu;
+        font-size: 2em;
+    }
+}
+
+
+/*Estilos Página Contacto*/
+.background-gris-pagina-contacto{
+    background-color: $color-background-general;
+}
+    
+.contenido-pagina-contacto{
+    padding: 30px;
+    background-color: $color-background-general;
+
+}
+.form-label{
+    margin-top: 10px;
+    color: $color-fuente-detalles;
+    font-size: $font-size-general;
+}
+
+.texto-pagina-contacto{
+    font-size: $font-size-textos;
+    color: $color-fuente-textos;
+}
+

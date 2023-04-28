@@ -1,0 +1,124 @@
+@charset "UTF-8";
+/*Colores o Imágenes de Background*/
+/*Colores de Fuente*/
+/*Tamaños de Fuente*/
+* {
+  margin: 0%;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  list-style: none;
+}
+
+/*Estilos Encabezado*/
+.menu {
+  background-color: rgb(122, 115, 102);
+}
+
+ul {
+  list-style: none;
+}
+
+.logo-principal {
+  width: 300px;
+  padding: 10px;
+}
+
+.logos-redes {
+  padding: 40px;
+}
+.logos-redes .texto-contacto {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-style: bold;
+  font-size: 1.3em;
+}
+
+.logo-facebook, .logo-whatsapp {
+  margin-bottom: 5px;
+  width: 50px;
+}
+
+.logo-instagram {
+  margin-bottom: 5px;
+  width: 70px;
+}
+
+.texto-contacto:active {
+  color: rgb(224, 203, 210);
+}
+
+/*Estilos Index*/
+.productos, .ideas-deco, .conocenos {
+  margin-bottom: 10px;
+}
+
+.imagen-productos {
+  padding: 15px;
+}
+
+.enlace-a-productos {
+  padding: 130px;
+}
+.enlace-a-productos a {
+  text-decoration: none;
+}
+.enlace-a-productos p {
+  color: #4b4848;
+  font-size: 2em;
+}
+
+/*Estilos Página Contacto*/
+.background-gris-pagina-contacto {
+  background-color: rgb(122, 115, 102);
+}
+
+.contenido-pagina-contacto {
+  padding: 30px;
+  background-color: rgb(122, 115, 102);
+}
+
+.form-label {
+  margin-top: 10px;
+  color: rgb(255, 255, 255);
+  font-size: 1.3em;
+}
+
+.texto-pagina-contacto {
+  font-size: 1.4em;
+  color: rgb(202, 202, 202);
+}
+
+@media (min-width: 200px) and (max-width: 850px) {
+  /*Queries Encabezado*/
+  .columna-vacia-encabezado {
+    display: none;
+  }
+  .logo-principal {
+    width: 200px;
+    margin-top: 20px;
+  }
+  .logos-redes {
+    padding: 40px;
+  }
+  .logo-facebook, .logo-whatsapp {
+    width: 30px;
+  }
+  .logo-facebook:hover, .logo-whatsapp:hover {
+    opacity: 0.8;
+  }
+  .logo-instagram {
+    width: 45px;
+  }
+  .logo-instagram:hover {
+    opacity: 0.8;
+  }
+  /*Queries Index*/
+  .enlace-a-productos {
+    padding: 50px;
+  }
+  .enlace-a-productos p {
+    font-size: 1em;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
