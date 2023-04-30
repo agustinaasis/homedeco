@@ -67,6 +67,7 @@ footer, .pie-de-pagina{
 /*Estilos Index*/
 
 .productos, .ideas-deco, .conocenos{
+    margin-top: 30px;
     margin-bottom: 10px;
     &:hover{
         opacity: 0.8;
@@ -79,14 +80,15 @@ footer, .pie-de-pagina{
 }
 
 .enlace-a-productos{
-padding: 130px;
-    a{
-        text-decoration: none;
-    }    
-    p{
-        color: $color-fuente-menu;
-        font-size: 2em;
-    }
+    padding: 130px;
+    margin-top: 20px;
+        a{
+            text-decoration: none;
+        }    
+        p{
+            color: $color-fuente-menu;
+            font-size: 2em;
+        }
 }
 
 
@@ -126,3 +128,9 @@ padding: 130px;
     color: $color-fuente-textos;
 }
 
+.volver-al-inicio{
+    width: 180px;
+    &:hover{
+        opacity: 0.5;
+    }
+}

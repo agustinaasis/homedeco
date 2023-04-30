@@ -71,6 +71,7 @@ footer .row .col, .pie-de-pagina .row .col {
 
 /*Estilos Index*/
 .productos, .ideas-deco, .conocenos {
+  margin-top: 30px;
   margin-bottom: 10px;
 }
 .productos:hover, .ideas-deco:hover, .conocenos:hover {
@@ -83,6 +84,7 @@ footer .row .col, .pie-de-pagina .row .col {
 
 .enlace-a-productos {
   padding: 130px;
+  margin-top: 20px;
 }
 .enlace-a-productos a {
   text-decoration: none;
@@ -126,6 +128,13 @@ footer .row .col, .pie-de-pagina .row .col {
   color: rgb(202, 202, 202);
 }
 
+.volver-al-inicio {
+  width: 180px;
+}
+.volver-al-inicio:hover {
+  opacity: 0.5;
+}
+
 @media (min-width: 200px) and (max-width: 800px) {
   /*Queries Encabezado*/
   .columna-vacia-encabezado {
@@ -152,12 +161,15 @@ footer .row .col, .pie-de-pagina .row .col {
   }
   /*Queries Index*/
   .enlace-a-productos {
-    padding: 50px;
+    padding: 30px;
   }
   .enlace-a-productos p {
     font-size: 1em;
   }
+  /*Queries footer*/
+  .enlaces {
+    display: none;
+  }
 }
-/*Queries footer*/
 
 /*# sourceMappingURL=styles.css.map */
