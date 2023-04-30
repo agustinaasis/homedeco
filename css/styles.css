@@ -11,7 +11,7 @@
 
 /*Estilos Encabezado*/
 .menu {
-  background-color: rgb(122, 115, 102);
+  background-color: rgb(110, 110, 110);
 }
 
 ul {
@@ -47,9 +47,34 @@ ul {
   color: rgb(224, 203, 210);
 }
 
+/*Estilos Footer*/
+footer, .pie-de-pagina {
+  background-color: rgb(242, 235, 240);
+}
+footer .row .col, .pie-de-pagina .row .col {
+  padding: 25px;
+}
+
+.texto-footer {
+  color: #4b4848;
+  margin-top: 25px;
+}
+
+.enlaces {
+  display: inline-flex;
+}
+
+.logo-facebook-footer, .logo-instagram-footer, .logo-whatsapp-footer {
+  width: 50px;
+  display: inline-flex;
+}
+
 /*Estilos Index*/
 .productos, .ideas-deco, .conocenos {
   margin-bottom: 10px;
+}
+.productos:hover, .ideas-deco:hover, .conocenos:hover {
+  opacity: 0.8;
 }
 
 .imagen-productos {
@@ -67,14 +92,27 @@ ul {
   font-size: 2em;
 }
 
+.volver {
+  margin-top: 50px;
+}
+.volver .texto-volver {
+  color: #4b4848;
+  text-decoration: none;
+  font-size: 0.7em;
+}
+.volver .texto-volver:hover {
+  font-size: 0.8em;
+  text-decoration: underline;
+}
+
 /*Estilos Página Contacto*/
 .background-gris-pagina-contacto {
-  background-color: rgb(122, 115, 102);
+  background-color: rgb(110, 110, 110);
 }
 
 .contenido-pagina-contacto {
   padding: 30px;
-  background-color: rgb(122, 115, 102);
+  background-color: rgb(110, 110, 110);
 }
 
 .form-label {
@@ -88,7 +126,7 @@ ul {
   color: rgb(202, 202, 202);
 }
 
-@media (min-width: 200px) and (max-width: 850px) {
+@media (min-width: 200px) and (max-width: 800px) {
   /*Queries Encabezado*/
   .columna-vacia-encabezado {
     display: none;
@@ -120,5 +158,6 @@ ul {
     font-size: 1em;
   }
 }
+/*Queries footer*/
 
 /*# sourceMappingURL=styles.css.map */

@@ -38,11 +38,39 @@ ul{
     color: rgb(224, 203, 210);
 }
 
+/*Estilos Footer*/
+
+footer, .pie-de-pagina{
+    background-color: $color-background-footer;
+    & .row .col{
+        padding: 25px;
+
+    }
+}
+
+
+.texto-footer{
+        color: $color-fuente-menu;
+        margin-top: 25px;
+}
+
+.enlaces{
+    display: inline-flex;
+    
+}
+.logo-facebook-footer, .logo-instagram-footer, .logo-whatsapp-footer{
+    width: 50px;
+    display: inline-flex;
+
+}
 
 /*Estilos Index*/
 
 .productos, .ideas-deco, .conocenos{
     margin-bottom: 10px;
+    &:hover{
+        opacity: 0.8;
+    }
 
 }
 
@@ -59,6 +87,21 @@ padding: 130px;
         color: $color-fuente-menu;
         font-size: 2em;
     }
+}
+
+
+.volver{
+    margin-top: 50px;
+    .texto-volver{
+    color:$color-fuente-menu;
+    text-decoration: none;
+    font-size: 0.7em;
+        &:hover{
+            font-size: 0.8em;
+            text-decoration: underline;
+        }
+}
+
 }
 
 
