@@ -170,6 +170,9 @@ footer .row .col, .pie-de-pagina .row .col {
   .enlaces {
     display: none;
   }
+  .volver-al-inicio {
+    width: 150px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
