@@ -1,12 +1,14 @@
 
 /*Estilos Encabezado*/
-.menu{
-    background-color: $color-background-general;
-}
 
 ul{
     list-style: none;
     }
+
+
+.menu{
+    background-color: $color-background-general;
+}
 
 .logo-principal{
     width: 300px;
@@ -15,6 +17,7 @@ ul{
 
 .logos-redes{
     padding: 40px;
+
     .texto-contacto{
         color: $color-fuente-detalles;
         text-decoration: none;
@@ -44,7 +47,6 @@ footer, .pie-de-pagina{
     background-color: $color-background-footer;
     & .row .col{
         padding: 25px;
-
     }
 }
 
@@ -94,6 +96,7 @@ footer, .pie-de-pagina{
 
 .volver{
     margin-top: 50px;
+
     .texto-volver{
     color:$color-fuente-menu;
     text-decoration: none;
@@ -111,12 +114,12 @@ footer, .pie-de-pagina{
 .background-gris-pagina-contacto{
     background-color: $color-background-general;
 }
-    
+
 .contenido-pagina-contacto{
     padding: 30px;
     background-color: $color-background-general;
-
 }
+
 .form-label{
     margin-top: 10px;
     color: $color-fuente-detalles;

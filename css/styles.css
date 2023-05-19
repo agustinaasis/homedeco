@@ -10,12 +10,12 @@
 }
 
 /*Estilos Encabezado*/
-.menu {
-  background-color: rgb(110, 110, 110);
-}
-
 ul {
   list-style: none;
+}
+
+.menu {
+  background-color: rgb(110, 110, 110);
 }
 
 .logo-principal {
