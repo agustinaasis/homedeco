@@ -1,24 +1,25 @@
-
 /*Estilos Encabezado*/
+.barraDeBusqueda {
+    margin: 10px 00px 10px;
+}
 
-ul{
+ul {
     list-style: none;
-    }
+}
 
-
-.menu{
+.menu {
     background-color: $color-background-general;
 }
 
-.logo-principal{
+.logo-principal {
     width: 300px;
     padding: 10px;
 }
 
-.logos-redes{
+.logos-redes {
     padding: 40px;
 
-    .texto-contacto{
+    .texto-contacto {
         color: $color-fuente-detalles;
         text-decoration: none;
         font-style: bold;
@@ -27,40 +28,45 @@ ul{
     }
 }
 
-.logo-facebook, .logo-whatsapp{
+.logo-facebook,
+.logo-whatsapp {
     margin-bottom: 5px;
     width: 50px;
 }
 
-.logo-instagram{
+.logo-instagram {
     margin-bottom: 5px;
     width: 70px;
 }
 
-.texto-contacto:active{
+.texto-contacto:active {
     color: rgb(224, 203, 210);
 }
 
 /*Estilos Footer*/
 
-footer, .pie-de-pagina{
+footer,
+.pie-de-pagina {
     background-color: $color-background-footer;
-    & .row .col{
+
+    & .row .col {
         padding: 25px;
     }
 }
 
-
-.texto-footer{
-        color: $color-fuente-menu;
-        margin-top: 25px;
+.texto-footer {
+    color: $color-fuente-menu;
+    margin-top: 25px;
 }
 
-.enlaces{
+.enlaces {
     display: inline-flex;
-    
+
 }
-.logo-facebook-footer, .logo-instagram-footer, .logo-whatsapp-footer{
+
+.logo-facebook-footer,
+.logo-instagram-footer,
+.logo-whatsapp-footer {
     width: 50px;
     display: inline-flex;
 
@@ -68,72 +74,109 @@ footer, .pie-de-pagina{
 
 /*Estilos Index*/
 
-.productos, .ideas-deco, .conocenos{
+.productos,
+.ideas-deco,
+.conocenos {
     margin-top: 30px;
     margin-bottom: 10px;
-    &:hover{
+
+    &:hover {
         opacity: 0.8;
+    }
+}
+
+.imagen-productos {
+    padding: 15px;
+}
+
+
+.enlace-a-productos {
+    padding: 130px;
+    margin-top: 20px;
+
+    a {
+        text-decoration: none;
+    }
+
+    p {
+        color: $color-fuente-menu;
+        font-size: 2em;
+    }
+}
+
+
+.volver {
+    margin-top: 50px;
+    margin-bottom: 15px;
+
+    .texto-volver {
+        color: $color-fuente-menu;
+        text-decoration: none;
+        font-size: 0.7em;
+
+        &:hover {
+            font-size: 0.8em;
+            text-decoration: underline;
+        }
     }
 
 }
 
-.imagen-productos{
+/*Estilos Página Productos*/
+.imagen-inicio-tienda {
     padding: 15px;
+    margin-top: 15px;
+    margin-bottom: 20px;
 }
 
-.enlace-a-productos{
-    padding: 130px;
+.enlace-a-productos-tienda {
+    padding: 150px;
     margin-top: 20px;
-        a{
-            text-decoration: none;
-        }    
-        p{
-            color: $color-fuente-menu;
-            font-size: 2em;
-        }
+
+    a {
+        text-decoration: none;
+    }
+
+    p {
+        color: $color-fuente-menu;
+        font-size: 2em;
+    }
 }
 
 
-.volver{
-    margin-top: 50px;
+/* Estilos Página "Comedor" Tienda */
 
-    .texto-volver{
-    color:$color-fuente-menu;
-    text-decoration: none;
-    font-size: 0.7em;
-        &:hover{
-            font-size: 0.8em;
-            text-decoration: underline;
-        }
+.encabezado-principal-tienda {
+    height: 100px;
 }
 
-}
 
 
 /*Estilos Página Contacto*/
-.background-gris-pagina-contacto{
+.background-gris-pagina-contacto {
     background-color: $color-background-general;
 }
 
-.contenido-pagina-contacto{
+.contenido-pagina-contacto {
     padding: 30px;
     background-color: $color-background-general;
 }
 
-.form-label{
+.form-label {
     margin-top: 10px;
     color: $color-fuente-detalles;
     font-size: $font-size-general;
 }
 
-.texto-pagina-contacto{
+.texto-pagina-contacto {
     font-size: $font-size-textos;
     color: $color-fuente-textos;
 }
 
-.volver-al-inicio{
+.volver-al-inicio {
     width: 180px;
-    &:hover{
+
+    &:hover {
         opacity: 0.5;
     }
 }

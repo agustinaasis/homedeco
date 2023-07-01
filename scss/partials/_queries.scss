@@ -47,7 +47,19 @@
     width: 150px;
 }
 
+/*Queries Página General de Tienda*/
 
+.enlace-a-productos-tienda{
+    padding: 30px;
+    margin-top: 80px;
+        a{
+            text-decoration: none;
+        }    
+        p{
+            color: $color-fuente-menu;
+            font-size: 1em;
+        }
+}
 
 }
 

@@ -10,6 +10,10 @@
 }
 
 /*Estilos Encabezado*/
+.barraDeBusqueda {
+  margin: 10px 0px 10px;
+}
+
 ul {
   list-style: none;
 }
@@ -96,6 +100,7 @@ footer .row .col, .pie-de-pagina .row .col {
 
 .volver {
   margin-top: 50px;
+  margin-bottom: 15px;
 }
 .volver .texto-volver {
   color: #4b4848;
@@ -105,6 +110,30 @@ footer .row .col, .pie-de-pagina .row .col {
 .volver .texto-volver:hover {
   font-size: 0.8em;
   text-decoration: underline;
+}
+
+/*Estilos Página Productos*/
+.imagen-inicio-tienda {
+  padding: 15px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.enlace-a-productos-tienda {
+  padding: 150px;
+  margin-top: 20px;
+}
+.enlace-a-productos-tienda a {
+  text-decoration: none;
+}
+.enlace-a-productos-tienda p {
+  color: #4b4848;
+  font-size: 2em;
+}
+
+/* Estilos Página "Comedor" Tienda */
+.encabezado-principal-tienda {
+  height: 100px;
 }
 
 /*Estilos Página Contacto*/
@@ -172,6 +201,18 @@ footer .row .col, .pie-de-pagina .row .col {
   }
   .volver-al-inicio {
     width: 150px;
+  }
+  /*Queries Página General de Tienda*/
+  .enlace-a-productos-tienda {
+    padding: 30px;
+    margin-top: 80px;
+  }
+  .enlace-a-productos-tienda a {
+    text-decoration: none;
+  }
+  .enlace-a-productos-tienda p {
+    color: #4b4848;
+    font-size: 1em;
   }
 }
 
