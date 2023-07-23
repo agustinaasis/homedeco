@@ -37,7 +37,8 @@ ul {
   font-size: 1.3em;
 }
 
-.logo-facebook, .logo-whatsapp {
+.logo-facebook,
+.logo-whatsapp {
   margin-bottom: 5px;
   width: 50px;
 }
@@ -52,10 +53,12 @@ ul {
 }
 
 /*Estilos Footer*/
-footer, .pie-de-pagina {
+footer,
+.pie-de-pagina {
   background-color: rgb(242, 235, 240);
 }
-footer .row .col, .pie-de-pagina .row .col {
+footer .row .col,
+.pie-de-pagina .row .col {
   padding: 25px;
 }
 
@@ -68,17 +71,23 @@ footer .row .col, .pie-de-pagina .row .col {
   display: inline-flex;
 }
 
-.logo-facebook-footer, .logo-instagram-footer, .logo-whatsapp-footer {
+.logo-facebook-footer,
+.logo-instagram-footer,
+.logo-whatsapp-footer {
   width: 50px;
   display: inline-flex;
 }
 
 /*Estilos Index*/
-.productos, .ideas-deco, .conocenos {
+.productos,
+.ideas-deco,
+.conocenos {
   margin-top: 30px;
   margin-bottom: 10px;
 }
-.productos:hover, .ideas-deco:hover, .conocenos:hover {
+.productos:hover,
+.ideas-deco:hover,
+.conocenos:hover {
   opacity: 0.8;
 }
 
@@ -164,6 +173,37 @@ footer .row .col, .pie-de-pagina .row .col {
   opacity: 0.5;
 }
 
+/*  Estilos página ideas deco  */
+.inspoIdeasDeco {
+  margin-top: 50px;
+  font-size: 1.3em;
+  color: #4b4848;
+}
+
+.carruselIdeas {
+  margin-top: 10px;
+  padding: 40 px;
+}
+
+.descripcionCarrusel {
+  padding: 5px;
+  color: rgb(42, 37, 37);
+  font-size: 1.4em;
+  transition: all 1s ease;
+  animation: move 2s alternate-reverse;
+}
+.descripcionCarrusel:hover {
+  color: rgb(255, 255, 255);
+  font-size: 1.5em;
+  transform: translate(100%) rotate 180deg;
+  background-color: rgba(65, 64, 61, 0.579);
+}
+
+@keyframes move {
+  to {
+    transform: translateX(100%);
+  }
+}
 @media (min-width: 200px) and (max-width: 800px) {
   /*Queries Encabezado*/
   .columna-vacia-encabezado {
@@ -214,6 +254,16 @@ footer .row .col, .pie-de-pagina .row .col {
     color: #4b4848;
     font-size: 1em;
   }
+}
+/* Queries ideas deco */
+.carruselIdeas {
+  margin-top: 10px;
+  padding: 20px;
+}
+
+.inspoIdeasDeco {
+  margin-top: 10px;
+  font-size: 1.1em;
 }
 
 /*# sourceMappingURL=styles.css.map */

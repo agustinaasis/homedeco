@@ -180,3 +180,38 @@ footer,
         opacity: 0.5;
     }
 }
+
+
+/*  Estilos página ideas deco  */
+
+.inspoIdeasDeco{
+    margin-top: 50px;
+    font-size: 1.3em;
+    color: $color-fuente-menu;
+}
+
+.carruselIdeas{
+    margin-top: 10px;
+    padding: 40
+    px;
+}
+
+
+.descripcionCarrusel{
+    padding: 5px;
+    color: rgb(42, 37, 37);
+    font-size: 1.4em;
+    transition: all 1s ease;
+    animation: move 2s alternate-reverse;
+    &:hover {
+        color: rgb(255, 255, 255);
+        font-size: 1.5em;
+        transform: translate(100%) rotate (180deg);
+        background-color: rgba(65, 64, 61, 0.579);
+    }
+}
+@keyframes move {
+    to {transform: translateX(100%);}
+}
+
+
