@@ -182,7 +182,7 @@ footer .row .col,
 
 .carruselIdeas {
   margin-top: 10px;
-  padding: 40 px;
+  padding: 40px;
 }
 
 .descripcionCarrusel {
@@ -204,6 +204,29 @@ footer .row .col,
     transform: translateX(100%);
   }
 }
+/*  Estilos página conocenos  */
+.containerConocenos {
+  align-items: center;
+  padding: 10px;
+}
+
+.textoConocenos {
+  margin-top: 20px;
+  color: rgb(42, 37, 37);
+  font-size: 1.3em;
+  transition: all 1s ease;
+  animation: move 2s alternate-reverse;
+}
+
+@keyframes move {
+  to {
+    transform: translateX(100%);
+  }
+}
+.conocenosImg {
+  padding: 20px;
+}
+
 @media (min-width: 200px) and (max-width: 800px) {
   /*Queries Encabezado*/
   .columna-vacia-encabezado {
@@ -254,16 +277,19 @@ footer .row .col,
     color: #4b4848;
     font-size: 1em;
   }
-}
-/* Queries ideas deco */
-.carruselIdeas {
-  margin-top: 10px;
-  padding: 20px;
-}
-
-.inspoIdeasDeco {
-  margin-top: 10px;
-  font-size: 1.1em;
+  /* Queries ideas deco */
+  .carruselIdeas {
+    margin-top: 10px;
+    padding: 20px;
+  }
+  .inspoIdeasDeco {
+    margin-top: 10px;
+    font-size: 1.1em;
+  }
+  /*  Queries página conocenos  */
+  .textoConocenos {
+    font-size: 1.1em;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

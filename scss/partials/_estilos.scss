@@ -169,7 +169,7 @@ footer,
 }
 
 .texto-pagina-contacto {
-    font-size: $font-size-textos;
+    font-size: 1.4em;
     color: $color-fuente-textos;
 }
 
@@ -186,16 +186,14 @@ footer,
 
 .inspoIdeasDeco{
     margin-top: 50px;
-    font-size: 1.3em;
+    font-size: $font-size-general;
     color: $color-fuente-menu;
 }
 
 .carruselIdeas{
     margin-top: 10px;
-    padding: 40
-    px;
+    padding: 40px;
 }
-
 
 .descripcionCarrusel{
     padding: 5px;
@@ -215,3 +213,25 @@ footer,
 }
 
 
+/*  Estilos página conocenos  */
+
+.containerConocenos{
+    align-items: center;
+    padding: 10px;
+}
+
+.textoConocenos{
+    margin-top: 20px;
+    color: rgb(42, 37, 37);
+    font-size: $font-size-general;
+    transition: all 1s ease;
+    animation: move 2s alternate-reverse;
+}
+
+@keyframes move {
+    to {transform: translateX(100%);}
+}
+
+.conocenosImg{
+    padding: 20px;
+}
